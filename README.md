@@ -13,15 +13,15 @@ Batangas State University, Alangilan Campus
 
 ## Notebook links
 
-| Chapter | Member 1 | Member 2 |
-|---|---|---|
-| Ch1_2_3 | [Ch123_Beraña1_Macasinag2](https://colab.research.google.com/drive/1ZWOe3By0EzK4fIKFydX928dIxllaUnd4) | [link]() |
-| Ch4 | [Ch4_Beraña1_Macasinag2](https://colab.research.google.com/drive/1X3GiSw0jUyUAyAQi-d8-Ht1i9ZtO37Vi?usp=sharing) | [link]() |
-| Ch5 | [Ch5_Beraña1_Macasinag2](https://colab.research.google.com/drive/1tfqVGZ3L-yWI-vSmy-df330puJ14Plze) | [link]() |
-| Ch6 | [Ch6_Beraña1_Macasinag2](https://colab.research.google.com/drive/1mr0sBk69Mfsud9CUfmmX0WK89SaENcpJ) | [link]() |
-| Ch7 | [link]() | [link]() |
-| Ch8 | [link]() | [link]() |
-| Ch9 | [link]() | [link]() |
+| Chapter | Member 1 |
+|---|---|
+| Ch1_2_3 | [Ch123_Beraña1_Macasinag2](https://colab.research.google.com/drive/1ZWOe3By0EzK4fIKFydX928dIxllaUnd4) | 
+| Ch4 | [Ch4_Beraña1_Macasinag2](https://colab.research.google.com/drive/1X3GiSw0jUyUAyAQi-d8-Ht1i9ZtO37Vi?usp=sharing) |
+| Ch5 | [Ch5_Beraña1_Macasinag2](https://colab.research.google.com/drive/1tfqVGZ3L-yWI-vSmy-df330puJ14Plze) |
+| Ch6 | [link]() | 
+| Ch7 | [link]() | 
+| Ch8 | [link]() | 
+| Ch9 | [link]() |
 
 ## What we learned
 
