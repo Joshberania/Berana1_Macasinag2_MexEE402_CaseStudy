@@ -8,14 +8,14 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Surname, First Name | | |
-| Surname, First Name | | |
+| Beraña, Steven Josh | 23-07634 | MEXE-4101 |
+| Macasinag, Criz Glenn | | MEXE-4101 |
 
 ## Notebook links
 
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
-| Ch1_2_3 | [link]() | [link]() |
+| Ch1_2_3 | [https://colab.research.google.com/drive/1ZWOe3By0EzK4fIKFydX928dIxllaUnd4#scrollTo=eHF2OXY5GSQA]() | [link]() |
 | Ch4 | [link]() | [link]() |
 | Ch5 | [link]() | [link]() |
 | Ch6 | [link]() | [link]() |
