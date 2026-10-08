@@ -30,7 +30,7 @@ you and what surprised you. Not what the library does, but what you understood.
 
 | Chapter | Learnings |
 |---|---|
-| Ch1_2_3 | In these three chapters, I learned a lot beyond programming, especially about what I need to know first before proceeding to the next steps. As for Chapter 1, I was immediately introduced to the idea that not all raw data is ready for analysis. You cannot simply create a program and run it right away. Each dataset needs to go through preprocessing first, where the data is prepared before proceeding to machine learning. I am not surprised but rather expected that missing or inconsistent values could possibly cause messy results later on, which I have already experienced before in subjects where we dealt with programming. In Chapter 2, I realized that each data type in every column is important, which is interconnected with the previous chapter because this is where I started to encounter data processing and how the data is handled. I was surprised that I needed to distinguish between object, int64, and float64 to determine what operation should be applied first before proceeding to the next step. Lastly, in Chapter 3, I learned that simply deleting missing values is not always the automatic solution when encountering them. I only learned now that there are different approaches to handling missing values, such as imputation, deletion, and prediction. This also helped me become more careful about looking closely at the program before making a risky solution, since I could either spend a long time troubleshooting to find the problem again or even have to repeat everything from the beginning. Overall, the questions helped us understand each process better, rather than simply copying the program, because they helped us connect the dots that seemed overwhelming at first. As time goes by, we become more engaged in programming without even noticing how many steps actually need to be followed.|
+| Ch1_2_3 | <p align="justify"> In these three chapters, I learned a lot beyond programming, especially about what I need to know first before proceeding to the next steps. As for Chapter 1, I was immediately introduced to the idea that not all raw data is ready for analysis. You cannot simply create a program and run it right away. Each dataset needs to go through preprocessing first, where the data is prepared before proceeding to machine learning. I am not surprised but rather expected that missing or inconsistent values could possibly cause messy results later on, which I have already experienced before in subjects where we dealt with programming. In Chapter 2, I realized that each data type in every column is important, which is interconnected with the previous chapter because this is where I started to encounter data processing and how the data is handled. I was surprised that I needed to distinguish between object, int64, and float64 to determine what operation should be applied first before proceeding to the next step. Lastly, in Chapter 3, I learned that simply deleting missing values is not always the automatic solution when encountering them. I only learned now that there are different approaches to handling missing values, such as imputation, deletion, and prediction. This also helped me become more careful about looking closely at the program before making a risky solution, since I could either spend a long time troubleshooting to find the problem again or even have to repeat everything from the beginning. Overall, the questions helped us understand each process better, rather than simply copying the program, because they helped us connect the dots that seemed overwhelming at first. As time goes by, we become more engaged in programming without even noticing how many steps actually need to be followed. </p> |
 | Ch4 | |
 | Ch5 | |
 | Ch6 | |
@@ -44,10 +44,30 @@ you and what surprised you. Not what the library does, but what you understood.
 List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
 
+| Chapter | Errors |
+|---|---|
+| Ch1_2_3 | <p align="justify"> So far, none of the programs crashed during the programming activities, but a warning appeared in Step 3, specifically during imputation. It indicated that using inplace=True on the Year and Publisher columns may no longer be valid in future versions of pandas. We corrected it by assigning the result of fillna() directly back to each column. Therefore, the corrected version is df['Year'] = df['Year'].fillna(df['Year'].mean()) and df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0]). Moreover, we also noticed another issue, although it was not a major one, which was the confusion between the Chapter Questions and what was presented in Chapter 3 of the notebook. Only two methods were implemented in the code, which were imputation and deletion, while prediction was only discussed and not implemented. This was not a programming error, but rather an inconsistency in the instruction or question that might lead to confusion. </p> |
+| Ch4 | |
+| Ch5 | |
+| Ch6 | |
+| Ch7 | |
+| Ch8 | |
+| Ch9 | |
+
 ## Note on AI tools
 
 Say whether you used an AI tool, and what for. This is not a penalty.
 Hiding it is.
+
+| Chapter | Justification on AI Tool Usage |
+|---|---|
+| Ch1_2_3 | <p align="justify"> Throughout these chapters, we admit that we used AI, but we mainly used it as a guide instead of relying too much on it. Our use of AI was similar to what we discussed in Chapter 1, where our initial answers were like raw data. They could contain mistakes, inconsistencies, or other things that we might have missed. That is why, whenever we finished answering a question, we used AI to verify and validate whether our answers were correct, if something was missing, and to fix any grammar errors. When we encountered steps that we could not immediately understand, we also asked AI to explain them clearly, which helped us understand the purpose and function of the steps better. Lastly, AI was also helpful in finding errors. For example, we noticed the inconsistency in the Chapter Questions ourselves, while AI helped us identify the programming warning and provided a corrected version of the code, which we also used in our program. </p> |
+| Ch4 | |
+| Ch5 | |
+| Ch6 | |
+| Ch7 | |
+| Ch8 | |
+| Ch9 | |
 
 ## References
 
